@@ -20,7 +20,7 @@ s.frameworks = "JavaScriptCore", "AssetsLibrary", "CoreMotion", "CoreMotion", "C
 s.libraries = "resolv", "icucore", "c++"
 s.vendored_frameworks = "framework/*/*.framework"
 s.resource_bundles = {'AlibcTradeUltimateSDK' => ['bundle/*.bundle', 'bundle/*/*.bundle']}
-s.resources = ["resource/*"]
+# s.resources = ["resource/*"]
 
 s.xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
 
