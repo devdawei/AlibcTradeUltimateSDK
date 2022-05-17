@@ -19,7 +19,7 @@ s.source_files = 'temp.h'
 s.frameworks = "JavaScriptCore", "AssetsLibrary", "CoreMotion", "CoreMotion", "Contacts", "ContactsUI", "AddressBook", "AddressBookUI"
 s.libraries = "resolv", "icucore", "c++"
 s.vendored_frameworks = "framework/*/*.framework"
-s.resource_bundles = {'AlibcTradeUltimateSDK' => ['bundle/*.bundle', 'bundle/*/*.bundle']}
+# s.resource_bundles = {'AlibcTradeUltimateSDK' => ['bundle/*.bundle', 'bundle/*/*.bundle']}
 # s.resources = ["resource/*"]
 
 s.xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
